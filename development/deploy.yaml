@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: dev-app-new
+  name: dev-app-todo
   labels:
     app: nginx
 spec:
@@ -16,4 +16,4 @@ spec:
     spec:
       containers:
       - name: nginx-container
-        image: hello-world
+        image: docker.io/vishnudutt1999/todo-app:latest
