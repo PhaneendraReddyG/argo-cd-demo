@@ -16,4 +16,4 @@ spec:
     spec:
       containers:
       - name: nginx-container
-        image: docker.io/vishnudutt1999/todo-app:latest
+        image: httpd:latest
