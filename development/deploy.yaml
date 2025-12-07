@@ -16,4 +16,4 @@ spec:
     spec:
       containers:
       - name: nginx-container
-        image: karthequian/helloworld:latest 
+        image: dockersamples/examplevotingapp_vote:latest 
